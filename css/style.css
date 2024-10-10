@@ -1,0 +1,83 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* shared style */
+.primary-btn {
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+/* header style */
+nav.header-nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px ;
+
+}
+
+ul.header-ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: ;
+}
+
+ul.header-ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul.header-ul>li>a {
+
+    color: black;
+    text-decoration: none;
+}
+
+img.header-icon {
+    width: 1.5rem;
+}
+
+.header-parent-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    align-items: center;
+}
+
+.header-container {
+    width: 40%;
+}
+
+h1.container-header {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+p.container-p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+img.right-arrow {
+    width: 17px;
+    margin-bottom: -4px;
+}
+.header-camera-container img {
+    width: 36rem;
+}
+/* header style end */
