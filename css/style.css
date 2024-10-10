@@ -7,6 +7,12 @@
 }
 
 /* shared style */
+:root {
+    --description-color: #787885;
+    --header-color: #18191F;
+    --socal-background: rgb(253, 253, 221);
+}
+
 .primary-btn {
     padding: 15px 25px;
     font-size: 1rem;
@@ -19,12 +25,15 @@
 
 
 /* header style */
+h2.logo {
+    font-size: 2.5rem;
+}
 nav.header-nav {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 150px ;
+    padding: 100px 150px;
 
 }
 
@@ -73,11 +82,31 @@ p.container-p {
     margin-bottom: 1rem;
     font-weight: 400;
 }
+
 img.right-arrow {
     width: 17px;
     margin-bottom: -4px;
 }
+
 .header-camera-container img {
     width: 36rem;
 }
+
 /* header style end */
+
+/* main socal style */
+.socal-container {
+    padding: 50px 200px;
+    margin-top: 50px;
+}
+
+ul.socal-media-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--socal-background);
+    padding: 100px 0px;
+    border-radius: 10px;
+
+}
