@@ -130,7 +130,10 @@ h1.product-container-parent-header {
     padding: 0 20.5%;
     gap: 2rem;
 }
-
+.collection-src{
+    text-decoration: none;
+    color: black;
+}
 .collection-container {
     width: 330px;
     text-align: left;
