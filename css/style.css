@@ -142,10 +142,10 @@ h1.product-container-parent-header {
     }
 
     nav.header-nav {
+        margin: 0 auto;
+        width: 230px;
         text-align: center;
         display: block;
-        align-items: center;
-        justify-content: space-between;
         padding: 10px 0px 10px 0px;
     }
 
