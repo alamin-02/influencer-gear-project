@@ -212,7 +212,7 @@ img.right-arrow-pink {
 
 
 /* responsive  media  */
-@media screen and (max-width: 360px) {
+ @media screen and (max-width: 360px) {
 
     /* header style */
     ul.header-ul {
@@ -317,7 +317,7 @@ img.right-arrow-pink {
         font-size: 1.5rem;
 
     }
-}
+} 
 
 
 @media screen and (min-width:361px) and (max-width: 576px) {
@@ -410,10 +410,13 @@ img.right-arrow-pink {
     .collection-parent-container {
         grid-template-columns: repeat(1, 1fr);
 
-        padding: 19%;
-        padding-bottom: 0;
-        padding-top: 2%;
+        padding: 0;
+        /* padding-bottom: 0;
+        padding-top: 2%; */
 
+    }
+    .collection-container{
+        margin: 0 auto;
     }
 
     /* see more style  */
