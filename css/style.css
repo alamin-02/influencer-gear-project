@@ -275,6 +275,7 @@ img.right-arrow-pink {
     /* collection responsive style */
     .collection-parent-container{
         grid-template-columns: repeat(1, 1fr);
+        padding: 3%;
     }
     /* see more style  */
     img.right-arrow-pink{
