@@ -233,7 +233,7 @@ img.right-arrow-pink {
     }
 
     .header-container {
-        width: 100%;
+        width: 86%;
     }
 
     .header-parent-container {
@@ -246,7 +246,7 @@ img.right-arrow-pink {
     }
 
     h1.container-header {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 0.5rem;
     }
 
@@ -254,6 +254,10 @@ img.right-arrow-pink {
         width: 20rem;
         margin-bottom: 1rem;
     }
+    p.container-p{
+        font-size: 1rem;
+    }
+
 
     /* header style end */
 
