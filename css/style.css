@@ -302,9 +302,8 @@ img.right-arrow-pink {
     .collection-parent-container {
         grid-template-columns: repeat(1, 1fr);
 
-        padding: 2%;
-        padding-bottom: 0;
-        padding-top: 2%;
+        padding: 0;
+      
 
     }
 
@@ -314,7 +313,7 @@ img.right-arrow-pink {
     }
 
     .see-more {
-        padding: 2rem 16.5%;
+        padding:1rem;
         font-size: 1.5rem;
 
     }
