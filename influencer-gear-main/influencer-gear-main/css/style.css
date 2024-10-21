@@ -1,0 +1,337 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body {
+    /* background-color: black; */
+}
+
+/* shared style */
+:root {
+    --description-color: #787885;
+    --header-color: #18191F;
+    --social-background: rgb(253, 253, 221);
+}
+
+.primary-btn {
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+/* header style */
+h2.logo {
+    font-size: 2.5rem;
+}
+
+nav.header-nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px 60px 100px;
+}
+
+ul.header-ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+ul.header-ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul.header-ul>li>a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+img.header-icon {
+    width: 1.5rem;
+}
+
+.header-parent-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+    align-items: center;
+}
+
+.header-container {
+    width: 100%;
+}
+
+h1.container-header {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+p.container-p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+img.right-arrow {
+    width: 17px;
+    margin-bottom: -4px;
+}
+
+.header-camera-container img {
+    width: 33rem;
+}
+
+/* header style end */
+
+/* main social style */
+.social-container {
+    /* padding: 50px 200px; */
+    margin-top: 20px;
+}
+
+ul.social-media-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--social-background);
+    padding: 100px 0px;
+    border-radius: 10px;
+
+}
+
+/* main product container style */
+
+h1.product-container-parent-header {
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+
+/* collection style */
+.collection-parent-container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 0 190px;
+    gap: 2rem;
+}
+
+.collection-src {
+    text-decoration: none;
+    color: black;
+}
+
+.collection-container {
+    width: 330px;
+    text-align: left;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 8px #d8d8d8;
+
+
+
+}
+
+img.collection-img {
+    margin-bottom: 1em;
+}
+
+h2.collection-title {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+span.collection-pice {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.collection-description {
+    margin-top: 0.5rem;
+    color: var(--description-color);
+    font-weight: 600;
+}
+
+.see-more {
+    padding: 2rem 13.5%;
+    font-size: 2rem;
+    text-align: right;
+}
+
+/* see more code */
+.see-more a {
+    color: #E02C6D;
+    text-decoration: none;
+
+}
+
+img.right-arrow-pink {
+    width: 37px;
+    margin-bottom: -9px;
+    margin-left: 5px;
+}
+
+/* see more end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end my phone responsive  */
+
+@media screen and (min-width:300px) and (max-width: 450px) {
+
+    /* header style */
+    ul.header-ul {
+        display: none;
+    }
+
+    h2.logo {
+        font-size: 1.5rem;
+    }
+
+    nav.header-nav {
+        margin: 0 auto;
+        width: 230px;
+        text-align: center;
+        display: block;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .header-container {
+        width: 90%;
+    }
+
+    .header-parent-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 10px;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    h1.container-header {
+        font-size: 1.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .header-camera-container img {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    p.container-p {
+        font-size: 1rem;
+    }
+
+
+    /* header style end */
+
+    /* icon media style */
+    ul.social-media-list {
+        /* display: flex; */
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--social-background);
+        padding: 0px 0px;
+        border-radius: 10px;
+        /* flex-direction: column; */
+    }
+
+    /* .social-container {
+        padding: 0px 0px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    } */
+
+    ul.social-media-list>li>a>img {
+
+        margin-bottom: 1rem;
+        width: 58px;
+        padding: 10px 10px;
+    }
+
+    ul.social-media-list {
+        display:flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        /* gap: 30; */
+        /* grid-template-columns: repeat(4, 2fr); */
+        /* padding: 1rem 0.5rem 1rem 3rem; */
+    }
+
+    /* collection responsive style */
+    h1.product-container-parent-header {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .collection-parent-container {
+        grid-template-columns: repeat(1, 1fr);
+
+        padding: 0;
+        /* padding-bottom: 0;
+        padding-top: 2%; */
+
+    }
+    .collection-container{
+        margin: 0 auto;
+    }
+
+    /* see more style  */
+    img.right-arrow-pink {
+        width: 30px;
+    }
+
+    .see-more {
+        padding: 2rem 16.5%;
+        font-size: 1.5rem;
+
+    }
+}
+
+
+
+
+/* tablet or media device  */
+@media screen and (min-width:576px) and (max-width: 960px) {
+
+}
