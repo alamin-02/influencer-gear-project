@@ -10,6 +10,8 @@ body {
     /* background-color: black; */
     max-width: 2300px;
     margin: 0 auto;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 /* shared style */
@@ -288,7 +290,6 @@ img.right-arrow-pink {
     /* header style end */
 
     /* main social style */
-
 
     ul.social-media-list {
         display: flex;
