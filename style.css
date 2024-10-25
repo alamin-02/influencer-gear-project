@@ -38,8 +38,7 @@ h2.logo {
 
 nav.header-nav {
     display: flex;
-    max-width: 1900px;
-    gap: 155px;
+    max-width: 2070px;
 }
 
 ul.header-ul {
@@ -213,13 +212,12 @@ img.right-arrow-pink {
 
 
 /* laptop style */
-@media (min-width:1024px) and (max-width: 1600px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
 
     /* nav style  */
     nav.header-nav {
         /* text-align: center; */
         display: flex;
-        gap: 155px;
         /* max-width: 1415px; */
     }
 
@@ -314,9 +312,8 @@ img.right-arrow-pink {
     .collection-parent-container {
         display: grid;
         grid-template-columns: repeat(3, 3fr);
-        /* padding: 0 190px; */
+        padding: 0 190px;
         gap: 2rem;
-        max-width: 1135px;
     }
 
     .collection-src {
@@ -465,7 +462,6 @@ img.right-arrow-pink {
     }
 
     .social-container {
-        max-width: 1135px;
         padding: 0px 0px;
         margin-top: 20px;
         margin-bottom: 35px;
