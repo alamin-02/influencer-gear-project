@@ -754,6 +754,7 @@ p.footer-description {
         margin: 0 auto;
         margin-bottom: 20px;
     }
+
     ul.header-ul {
         align-items: center;
         justify-content: center;
@@ -763,13 +764,16 @@ p.footer-description {
         gap: 30px;
         /* justify-content: space-between; */
     }
+
     ul.header-ul li {
         list-style: none;
         margin: 0;
     }
-    ul.header-ul>li>a{
+
+    ul.header-ul>li>a {
         font-size: 20px;
     }
+
     .header-parent-container {
         display: flex;
         justify-content: space-around;
