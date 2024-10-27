@@ -362,6 +362,11 @@ p.footer-description {
     /* header style end */
 
     /* main social style */
+    .social-container {
+        padding: 0;
+        /* margin-top: 20px; */
+        /* max-width: 1530px; */
+    }
 
     ul.social-media-list {
         display: flex;
@@ -541,7 +546,7 @@ p.footer-description {
 
 /* end my phone responsive  */
 
-@media screen and (min-width:300px) and (max-width: 450px) {
+@media screen and (min-width:300px) and (max-width: 425px) {
 
     /* header style */
     ul.header-ul {
@@ -586,7 +591,8 @@ p.footer-description {
 
     p.container-p {
         font-size: 1rem;
-        width: 350px;
+        width: 302px;
+        margin: 20px auto;
     }
 
 
@@ -728,4 +734,128 @@ p.footer-description {
 
 
 /* tablet or media device  */
-@media screen and (min-width:576px) and (max-width: 960px) {}
+@media screen and (min-width:425px) and (max-width: 768px) {
+
+    /* header responsive */
+    nav.header-nav {
+        display: flex;
+        max-width: unset;
+        gap: 0;
+        align-content: flex-end;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2.logo {
+        font-size: 2.5rem;
+        text-align: center;
+        /* margin-left: -60px; */
+        margin-bottom: 20px;
+    }
+
+    .header-parent-container {
+        display: flex;
+        justify-content: space-around;
+        /* padding: 0px 150px; */
+        align-items: center;
+        max-width: unset;
+        text-align: center;
+        /* margin-right: 146px; */
+        flex-direction: column-reverse;
+    }
+
+    h1.container-header {
+        font-size: 3.5rem;
+        /* margin-bottom: 1rem; */
+        max-width: 561px;
+        margin: 0 auto;
+    }
+
+    p.container-p {
+        width: 388px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .header-camera-container img {
+        width: 30rem;
+        margin-bottom: 0 auto;
+    }
+
+    /* header responsive end */
+    /* social responsive  */
+    ul.social-media-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    ul.social-media-list li:last-child {
+        grid-column: 1/-1;
+        justify-content: center;
+    }
+
+    /* social responsive end */
+    /* collection responsive  */
+    h1.product-container-parent-header {
+        font-size: 2.5rem;
+        margin-bottom: 3.5rem;
+        text-align: center;
+    }
+
+    .collection-parent-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* padding: 0 190px; */
+        gap: 16px;
+        max-width: 737px;
+    }
+
+    /* collection style end */
+    /* feature style */
+    .featured-product {
+        display: flex;
+        max-width: 1350px;
+        gap: 31px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    h2.featured-header {
+        font-size: 40px;
+        font-weight: 800;
+        color: #0A0826;
+        width: 485px;
+        margin: 0 auto;
+    }
+
+    p.featured-description.container-p {
+        width: 485px;
+        /* font-size: 20px; */
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: 500;
+        margin: 0 auto;
+        color: #6C6C6C;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    img.featured-img {
+        width: 580px;
+    }
+
+    /* feature style end */
+    /* see more style */
+    .see-more {
+        padding: 20px;
+    }
+}
